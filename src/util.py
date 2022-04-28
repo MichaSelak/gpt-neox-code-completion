@@ -9,5 +9,4 @@ def dir2samples(path:str):
             reader = csv.reader(fd)
             yield from reader
 
-
-    
+# print(next(dir2samples("../data")))
